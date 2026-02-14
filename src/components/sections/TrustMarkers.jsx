@@ -18,7 +18,7 @@ export default function TrustMarkers() {
   ];
 
   return (
-    <div className="bg-white dark:bg-[#1a150a] border-y border-primary/10 py-10">
+    <div className="bg-primary/5  border-y border-primary/10 py-10">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
         {markers.map((marker, idx) => (
           <div key={idx} className="flex items-center gap-4 justify-center">

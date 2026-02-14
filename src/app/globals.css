@@ -1,23 +1,29 @@
 @import "tailwindcss";
 
-:root {
-  --primary: #eeaa2b;
-  --background-light: #f8f7f6;
-  --background-dark: #221c10;
-  --text-dark: #1b160d;
-  --text-light: #f8f7f6;
+@theme {
+  --color-primary: #eeaa2b;
+  --color-background-light: #f8f7f6;
+  --color-background-dark: #221c10;
+  
+  --font-display: "Noto Serif", serif;
+  --font-sans: "Noto Sans", sans-serif;
+  
+  --radius-default: 0.25rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-full: 9999px;
 }
 
 @layer base {
   body {
-    font-family: 'Noto Sans', sans-serif;
+    @apply font-sans;
   }
 
   h1,
   h2,
   h3,
   .font-display {
-    font-family: 'Noto Serif', serif;
+    @apply font-display;
   }
 
   .material-symbols-outlined {

@@ -11,10 +11,10 @@ export default function HeroSection() {
         <span className="uppercase tracking-[0.5em] text-sm mb-4 font-sans text-primary">
           The Bridal Edit 2024
         </span>
-        <h1 className="text-5xl md:text-7xl font-bold max-w-2xl leading-tight mb-8">
+        <h2 className="text-5xl md:text-7xl font-bold max-w-2xl leading-tight mb-8">
           The Art of <br />
           <span className="italic font-normal">Heritage</span>
-        </h1>
+        </h2>
         <p className="text-lg md:text-xl max-w-lg mb-10 opacity-90 font-light">
           Discover the timeless elegance of hand-crafted Indian jewellery, designed for the modern bride who honors tradition.
         </p>

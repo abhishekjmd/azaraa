@@ -22,9 +22,8 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
           rel="stylesheet"
         />
-        <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries" defer />
       </head>
-      <body className="bg-background-light dark:bg-background-dark text-[#1b160d] dark:text-[#f8f7f6] font-sans">
+      <body className="">
         {children}
       </body>
     </html>
