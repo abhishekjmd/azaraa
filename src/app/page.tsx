@@ -12,7 +12,7 @@ import InstagramGallery from '@/components/sections/InstagramGallery';
 
 export default function Home() {
   return (
-    <main className="overflow-x-hidden pt-[40px]">
+    <main className="overflow-x-hidden">
       <Header />
       <HeroSection />
       <TrustMarkers />

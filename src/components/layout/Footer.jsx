@@ -8,7 +8,7 @@ export default function Footer() {
         <h3 className="text-[16px] font-sans font-bold uppercase tracking-[0.3em] mb-8">Subscribe to our Newsletter</h3>
         <div className="max-w-md mx-auto flex gap-4">
           <input
-            className="flex-1 border-b border-gray-300 focus:border-[#C9A86A] focus:ring-0 text-sm px-0 py-2 transition-colors bg-transparent outline-none"
+            className="flex-1 bg-transparent border border-gray-300 px-4 py-3 text-sm focus:ring-1 focus:ring-[#C9A86A] focus:border-[#C9A86A] transition-colors outline-none placeholder:text-gray-400 rounded-md"
             placeholder="Enter your email address"
             type="email"
           />

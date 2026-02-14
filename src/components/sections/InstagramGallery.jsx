@@ -9,7 +9,7 @@ const galleryImages = [
 
 export default function InstagramGallery() {
   return (
-    <section className="py-24 border-t border-primary/10">
+    <section className="py-24 border-t border-primary/10 bg-[#F8F7F6]">
       <div className="max-w-7xl mx-auto px-6 mb-12 flex items-center justify-between">
         <h2 className="text-3xl font-bold">Follow @AZARAA_OFFICIAL</h2>
         <span className="material-symbols-outlined text-primary">camera_alt</span>

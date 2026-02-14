@@ -5,7 +5,7 @@ export default function Header() {
     <>
       <TopBanner />
       <header className="sticky top-0 z-50 w-full h-[90px] bg-white border-b border-gray-100 flex items-center">
-        <div className="max-w-7xl mx-auto px-6 w-full flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-6 w-full grid grid-cols-3 items-center relative">
           {/* Left: Navigation */}
           <nav className="hidden lg:flex items-center gap-8">
             <a className="text-[14px] font-sans uppercase tracking-[0.15em] text-[#1A1A1A] hover:text-[#C9A86A] transition-colors" href="#">Home</a>
@@ -19,16 +19,18 @@ export default function Header() {
           </nav>
 
           {/* Center: Logo */}
-          <a className="absolute left-1/2 -translate-x-1/2" href="/">
-            <h1 className="text-2xl font-bold tracking-[0.2em] text-[#1A1A1A]">AZARAA</h1>
-          </a>
+          <div className="flex justify-center">
+            <a href="/">
+              <h1 className="text-2xl font-bold tracking-[0.2em] text-[#1A1A1A]">AZARAA</h1>
+            </a>
+          </div>
 
           {/* Right: Nav + Icons */}
-          <div className="flex items-center gap-6">
-            <nav className="hidden xl:flex items-center gap-8 mr-4">
+          <div className="flex items-center justify-end gap-8">
+            <nav className="hidden xl:flex items-center gap-8">
               <a className="text-[14px] font-sans uppercase tracking-[0.15em] text-[#1A1A1A] hover:text-[#C9A86A] transition-colors" href="#">About</a>
               <a className="text-[14px] font-sans uppercase tracking-[0.15em] text-[#1A1A1A] hover:text-[#C9A86A] transition-colors" href="#">Contact</a>
-              <a className="text-[14px] font-sans uppercase tracking-[0.15em] text-[#C9A86A] font-semibold border-b border-[#C9A86A]" href="#">Book Appointment</a>
+              <a className="text-[14px] font-sans uppercase tracking-[0.15em] text-[#C9A86A] font-semibold border-b border-[#C9A86A] whitespace-nowrap" href="#">Book Appointment</a>
             </nav>
             <div className="flex items-center gap-4 text-[#1A1A1A]">
               <button className="hover:text-[#C9A86A] transition-colors">
@@ -36,9 +38,6 @@ export default function Header() {
               </button>
               <button className="hover:text-[#C9A86A] transition-colors hidden md:block">
                 <span className="material-symbols-outlined">person</span>
-              </button>
-              <button className="hover:text-[#C9A86A] transition-colors">
-                <span className="material-symbols-outlined">favorite</span>
               </button>
               <button className="hover:text-[#C9A86A] transition-colors relative">
                 <span className="material-symbols-outlined">shopping_bag</span>
