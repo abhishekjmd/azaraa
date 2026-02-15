@@ -8,9 +8,9 @@ export default function Header() {
         <div className="max-w-7xl mx-auto px-6 w-full grid grid-cols-3 items-center relative">
           {/* Left: Navigation */}
           <nav className="hidden lg:flex items-center gap-8">
-            <a className="text-[14px] font-sans uppercase tracking-[0.15em] text-[#1A1A1A] hover:text-[#C9A86A] transition-colors" href="#">Home</a>
+            <a className="text-[14px] font-sans uppercase tracking-[0.15em] text-[#1A1A1A] hover:text-[#C9A86A] transition-colors" href="/">Home</a>
             <div className="group relative">
-              <a className="text-[14px] font-sans uppercase tracking-[0.15em] text-[#1A1A1A] hover:text-[#C9A86A] transition-colors flex items-center gap-1" href="#">
+              <a className="text-[14px] font-sans uppercase tracking-[0.15em] text-[#1A1A1A] hover:text-[#C9A86A] transition-colors flex items-center gap-1" href="/shop">
                 Shop <span className="material-symbols-outlined text-sm">expand_more</span>
               </a>
             </div>

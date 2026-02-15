@@ -8,6 +8,7 @@ const config: Config = {
         primary: '#eeaa2b',
         'background-light': '#f8f7f6',
         'background-dark': '#221c10',
+        'border-gold': '#e7dfcf',
       },
       fontFamily: {
         display: ['Noto Serif', 'serif'],
