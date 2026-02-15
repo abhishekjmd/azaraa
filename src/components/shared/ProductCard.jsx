@@ -33,9 +33,16 @@ const productData = [
   },
 ];
 
+import Link from 'next/link'
+
+function slugify(name){
+  return name.toLowerCase().replace(/\s+/g,'-').replace(/[^a-z0-9-]/g,'')
+}
+
 export default function ProductCard({ product }) {
+  const slug = slugify(product.name)
   return (
-    <div className="group cursor-pointer">
+    <Link href={`/shop/${slug}`} className="group cursor-pointer">
       <div className="aspect-[3/4] overflow-hidden rounded-lg bg-gray-100 mb-4">
         <img
           alt={product.name}
@@ -48,7 +55,7 @@ export default function ProductCard({ product }) {
       </p>
       <h3 className="text-lg font-bold mb-1">{product.name}</h3>
       <p className="text-sm text-gray-600">{product.price}</p>
-    </div>
+    </Link>
   );
 }
 
