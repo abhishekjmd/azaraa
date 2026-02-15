@@ -6,6 +6,7 @@
   --color-background-dark: #221c10;
   
   --font-display: "Noto Serif", serif;
+  --font-playfair: "Playfair Display", serif;
   --font-sans: "Noto Sans", sans-serif;
   
   --radius-default: 0.25rem;
@@ -16,7 +17,7 @@
 
 @layer base {
   body {
-    @apply font-sans;
+    @apply font-display;
   }
 
   h1,

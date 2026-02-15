@@ -12,6 +12,7 @@ const config: Config = {
       },
       fontFamily: {
         display: ['Noto Serif', 'serif'],
+        playfair: ['Playfair Display', 'serif'],
         sans: ['Noto Sans', 'sans-serif'],
       },
       borderRadius: {
